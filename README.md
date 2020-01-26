@@ -145,6 +145,12 @@ Effectivement, la plupart du temps, le taquin est résolu avec 60% d'agents remp
 Au contraire, un taux de remplissage supérieur à 60% a tendance à créer des boucles dont il est trop difficile de sortir.
 Ceci est dû aux faiblesses de l'application qui sont détaillées dans la partie ci-dessous.
 
+**Bug JavaFX**
+> Il arrive de temps en temps que l'application se fige (les pièces devenant alors immobiles).
+> Ce problème semble venir des threads (services) JavaFX qui, pour une raison inconnue, arrêtent parfois leur exécution en cours de route.
+> 
+> Il n'est pas fréquent mais il peut arriver. S'il se produit, relancez alors l'application.
+
 ### Cahier des charges
 
 Lors de la conception du projet, différentes charges ont été définies et le but du développement a été de les implémenter, de préférence de manière optimisée.
