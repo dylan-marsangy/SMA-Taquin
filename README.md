@@ -136,6 +136,15 @@ Plus d'informations sur le fonctionnement des pièces et leurs états sont dispo
 
 ## Développement du projet
 
+### Résolution du taquin
+
+Comme il a été expliqué, par défaut, le taquin est une grille de taille 5x5 avec 17 pièces, soit 60% de remplissage.
+Ce taux de remplissage a été choisi car il est celui avec lequel le taux de réussite est le plus satisfaisant.
+Effectivement, la plupart du temps, le taquin est résolu avec 60% d'agents remplissant la grille.
+
+Au contraire, un taux de remplissage supérieur à 60% a tendance à créer des boucles dont il est trop difficile de sortir.
+Ceci est dû aux faiblesses de l'application qui sont détaillées dans la partie ci-dessous.
+
 ### Cahier des charges
 
 Lors de la conception du projet, différentes charges ont été définies et le but du développement a été de les implémenter, de préférence de manière optimisée.
